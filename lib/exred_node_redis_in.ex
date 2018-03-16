@@ -26,6 +26,7 @@ defmodule Exred.Node.RedisIn do
     command: %{type: "select", value: "GET", attrs: %{options: ["GET", "LPOP", "LRANGE"]}},
     name: %{type: "string", value: ""}
   }
+  @ui_attributes %{left_icon: "send"}
   
   use Exred.Library.NodePrototype
 
