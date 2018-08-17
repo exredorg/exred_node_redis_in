@@ -1,7 +1,7 @@
 defmodule Exred.Node.RedisIn.Mixfile do
   use Mix.Project
 
-  @description "Writes to Redis"
+  @description "Reads from Redis"
 
   def project do
     [
